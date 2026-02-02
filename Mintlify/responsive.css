@@ -1,0 +1,22 @@
+@media (max-width: 1120px) {
+    nav {
+        padding: 0.5rem 3%;
+    }
+    nav .nav-left {
+        gap: 0%;
+    }
+
+    nav .nav-right {
+        padding-right: 3%;
+    }
+}
+
+@media (max-width: 960px) {
+    nav .nav-left {
+        gap: 2rem;
+        /* background: #f008; */
+    }
+    nav ul {
+        display: none;
+    }
+}
